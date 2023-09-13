@@ -9,7 +9,7 @@ import { useAppDispatch, useAppSelector } from '../../redux/store';
 const AppNavigation = () => {
   const dispatch = useAppDispatch();
   const isDarkMode = useAppSelector(state => state.preferences.isDarkMode);
-  console.log('isDarkMode => ', isDarkMode);
+
   const theme = React.useMemo(() => {
     return isDarkMode ? MD3DarkTheme : MD3LightTheme;
   }, [isDarkMode]);
