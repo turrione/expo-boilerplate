@@ -1,0 +1,1530 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "flex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      pointerEvents="box-none"
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "flex": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            animatedStyle={
+              {
+                "value": {},
+              }
+            }
+            collapsable={false}
+            forwardedRef={[Function]}
+            handlerTag={2}
+            handlerType="PanGestureHandler"
+            onGestureHandlerEvent={[Function]}
+            style={
+              {
+                "flex": 1,
+                "flexDirection": "row",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              animatedStyle={
+                {
+                  "value": {
+                    "transform": [
+                      {
+                        "translateX": 0,
+                      },
+                    ],
+                  },
+                }
+              }
+              collapsable={false}
+              style={
+                {
+                  "flex": 1,
+                  "transform": [
+                    {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                accessibilityElementsHidden={false}
+                importantForAccessibility="auto"
+                style={
+                  {
+                    "flex": 1,
+                  }
+                }
+              >
+                <View
+                  hasTwoStates={true}
+                  style={
+                    {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    pointerEvents="auto"
+                    style={
+                      [
+                        {
+                          "flex": 1,
+                          "overflow": "hidden",
+                        },
+                        [
+                          {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          },
+                          {
+                            "zIndex": 0,
+                          },
+                        ],
+                      ]
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      pointerEvents="auto"
+                      removeClippedSubviews={false}
+                      style={
+                        {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        accessibilityElementsHidden={false}
+                        importantForAccessibility="auto"
+                        style={
+                          [
+                            {
+                              "backgroundColor": "rgb(242, 242, 242)",
+                              "flex": 1,
+                            },
+                            [
+                              {
+                                "flex": 1,
+                                "flexDirection": "column-reverse",
+                              },
+                              undefined,
+                            ],
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            {
+                              "flex": 1,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "rgb(243, 237, 246)",
+                                  "elevation": 2,
+                                  "paddingHorizontal": 0,
+                                  "paddingTop": 0,
+                                  "zIndex": 1,
+                                },
+                                {},
+                                {
+                                  "shadowColor": "#000000",
+                                  "shadowOffset": {
+                                    "height": 0.75,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.24,
+                                  "shadowRadius": 1.5,
+                                },
+                              ]
+                            }
+                            testID="appbar-header-root-layer"
+                          >
+                            <View
+                              collapsable={false}
+                              style={
+                                {
+                                  "backgroundColor": "rgb(243, 237, 246)",
+                                  "height": 64,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": {
+                                    "height": 0,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0,
+                                  "shadowRadius": 0,
+                                }
+                              }
+                              testID="appbar-header-outer-layer"
+                            >
+                              <View
+                                collapsable={false}
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "backgroundColor": "rgb(243, 237, 246)",
+                                    "flex": 1,
+                                    "flexDirection": "row",
+                                    "paddingBottom": undefined,
+                                    "paddingHorizontal": 4,
+                                    "paddingLeft": undefined,
+                                    "paddingRight": undefined,
+                                    "paddingTop": undefined,
+                                    "shadowColor": "#000",
+                                    "shadowOffset": {
+                                      "height": 0,
+                                      "width": 0,
+                                    },
+                                    "shadowOpacity": 0,
+                                    "shadowRadius": 0,
+                                  }
+                                }
+                                testID="appbar-header"
+                              >
+                                <View
+                                  collapsable={false}
+                                  style={
+                                    {
+                                      "backgroundColor": "transparent",
+                                      "borderRadius": 20,
+                                      "height": 40,
+                                      "margin": 6,
+                                      "shadowColor": "#000",
+                                      "shadowOffset": {
+                                        "height": 0,
+                                        "width": 0,
+                                      },
+                                      "shadowOpacity": 0,
+                                      "shadowRadius": 0,
+                                      "width": 40,
+                                    }
+                                  }
+                                  testID="icon-button-container-outer-layer"
+                                >
+                                  <View
+                                    collapsable={false}
+                                    style={
+                                      {
+                                        "backgroundColor": "transparent",
+                                        "borderColor": "rgba(121, 116, 126, 1)",
+                                        "borderRadius": 20,
+                                        "borderWidth": 0,
+                                        "elevation": 0,
+                                        "flex": 1,
+                                        "overflow": "hidden",
+                                        "shadowColor": "#000",
+                                        "shadowOffset": {
+                                          "height": 0,
+                                          "width": 0,
+                                        },
+                                        "shadowOpacity": 0,
+                                        "shadowRadius": 0,
+                                      }
+                                    }
+                                    testID="icon-button-container"
+                                  >
+                                    <View
+                                      accessibilityComponentType="button"
+                                      accessibilityRole="button"
+                                      accessibilityState={
+                                        {
+                                          "busy": undefined,
+                                          "checked": undefined,
+                                          "disabled": false,
+                                          "expanded": undefined,
+                                          "selected": undefined,
+                                        }
+                                      }
+                                      accessibilityTraits="button"
+                                      accessibilityValue={
+                                        {
+                                          "max": undefined,
+                                          "min": undefined,
+                                          "now": undefined,
+                                          "text": undefined,
+                                        }
+                                      }
+                                      accessible={true}
+                                      centered={true}
+                                      collapsable={false}
+                                      focusable={true}
+                                      hitSlop={
+                                        {
+                                          "bottom": 6,
+                                          "left": 6,
+                                          "right": 6,
+                                          "top": 6,
+                                        }
+                                      }
+                                      onBlur={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onResponderGrant={[Function]}
+                                      onResponderMove={[Function]}
+                                      onResponderRelease={[Function]}
+                                      onResponderTerminate={[Function]}
+                                      onResponderTerminationRequest={[Function]}
+                                      onStartShouldSetResponder={[Function]}
+                                      style={
+                                        [
+                                          {
+                                            "overflow": "hidden",
+                                          },
+                                          [
+                                            {
+                                              "alignItems": "center",
+                                              "flexGrow": 1,
+                                              "justifyContent": "center",
+                                            },
+                                            {
+                                              "borderRadius": 20,
+                                            },
+                                          ],
+                                        ]
+                                      }
+                                      testID="icon-button"
+                                    >
+                                      <View
+                                        style={
+                                          [
+                                            {
+                                              "alignItems": "center",
+                                              "justifyContent": "center",
+                                            },
+                                            {
+                                              "height": 24,
+                                              "width": 24,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          collapsable={false}
+                                          style={
+                                            {
+                                              "bottom": 0,
+                                              "left": 0,
+                                              "opacity": 1,
+                                              "position": "absolute",
+                                              "right": 0,
+                                              "top": 0,
+                                              "transform": [
+                                                {
+                                                  "rotate": "0deg",
+                                                },
+                                              ],
+                                            }
+                                          }
+                                          testID="cross-fade-icon-current"
+                                        >
+                                          <Text
+                                            accessibilityElementsHidden={true}
+                                            allowFontScaling={false}
+                                            importantForAccessibility="no-hide-descendants"
+                                            pointerEvents="none"
+                                            selectable={false}
+                                            style={
+                                              [
+                                                {
+                                                  "color": "rgba(28, 27, 31, 1)",
+                                                  "fontSize": 24,
+                                                },
+                                                [
+                                                  {
+                                                    "lineHeight": 24,
+                                                    "transform": [
+                                                      {
+                                                        "scaleX": 1,
+                                                      },
+                                                    ],
+                                                  },
+                                                  {
+                                                    "backgroundColor": "transparent",
+                                                  },
+                                                ],
+                                                {
+                                                  "fontFamily": "material-community",
+                                                  "fontStyle": "normal",
+                                                  "fontWeight": "normal",
+                                                },
+                                                {},
+                                              ]
+                                            }
+                                          >
+                                            󰍜
+                                          </Text>
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                                <View
+                                  pointerEvents="box-none"
+                                  style={
+                                    [
+                                      {
+                                        "flex": 1,
+                                        "paddingHorizontal": 12,
+                                      },
+                                      {
+                                        "paddingHorizontal": 0,
+                                      },
+                                      [
+                                        false,
+                                        {
+                                          "alignItems": "center",
+                                        },
+                                        undefined,
+                                      ],
+                                    ]
+                                  }
+                                  testID="appbar-content"
+                                >
+                                  <Text
+                                    accessibilityRole="header"
+                                    accessibilityTraits="header"
+                                    accessible={true}
+                                    numberOfLines={1}
+                                    style={
+                                      [
+                                        {
+                                          "textAlign": "left",
+                                        },
+                                        {
+                                          "color": "rgba(28, 27, 31, 1)",
+                                          "writingDirection": "ltr",
+                                        },
+                                        [
+                                          {
+                                            "fontFamily": "System",
+                                            "fontSize": 22,
+                                            "fontWeight": "400",
+                                            "letterSpacing": 0,
+                                            "lineHeight": 28,
+                                          },
+                                          [
+                                            {
+                                              "color": "rgba(28, 27, 31, 1)",
+                                              "fontFamily": "System",
+                                              "fontSize": 22,
+                                              "fontWeight": "400",
+                                              "letterSpacing": 0,
+                                              "lineHeight": 28,
+                                            },
+                                            false,
+                                            undefined,
+                                          ],
+                                        ],
+                                      ]
+                                    }
+                                    testID="appbar-content-title-text"
+                                  >
+                                    [missing "mock.home-screen-title" translation]
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    {
+                                      "width": 52,
+                                    }
+                                  }
+                                />
+                              </View>
+                            </View>
+                          </View>
+                          <RCTScrollView
+                            alwaysBounceVertical={false}
+                            contentContainerStyle={
+                              {
+                                "padding": 8,
+                              }
+                            }
+                            keyboardShouldPersistTaps="always"
+                            showsVerticalScrollIndicator={false}
+                            style={
+                              [
+                                [
+                                  {
+                                    "flex": 1,
+                                  },
+                                  {
+                                    "backgroundColor": "rgba(255, 251, 254, 1)",
+                                    "paddingBottom": 0,
+                                    "paddingLeft": 0,
+                                    "paddingRight": 0,
+                                  },
+                                ],
+                                undefined,
+                              ]
+                            }
+                          >
+                            <View>
+                              <Text
+                                style={
+                                  [
+                                    {
+                                      "textAlign": "left",
+                                    },
+                                    {
+                                      "color": "rgba(28, 27, 31, 1)",
+                                      "fontFamily": "System",
+                                      "fontWeight": "400",
+                                      "letterSpacing": 0,
+                                    },
+                                    {
+                                      "writingDirection": "ltr",
+                                    },
+                                    [
+                                      {
+                                        "fontFamily": "Headings",
+                                        "fontSize": 24,
+                                      },
+                                    ],
+                                  ]
+                                }
+                              >
+                                [missing "mock.home-screen-title" translation]
+                              </Text>
+                              <Text
+                                style={
+                                  [
+                                    {
+                                      "textAlign": "left",
+                                    },
+                                    {
+                                      "color": "rgba(28, 27, 31, 1)",
+                                      "fontFamily": "System",
+                                      "fontWeight": "400",
+                                      "letterSpacing": 0,
+                                    },
+                                    {
+                                      "writingDirection": "ltr",
+                                    },
+                                    [
+                                      {
+                                        "fontFamily": "Body",
+                                        "fontSize": 16,
+                                      },
+                                    ],
+                                  ]
+                                }
+                              >
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam et quidem, quibusdam ab perferendis doloremque earum ipsam expedita architecto enim ducimus sed autem natus itaque, iure incidunt. Possimus, ipsum tempore!
+                              </Text>
+                              <Text
+                                style={
+                                  [
+                                    {
+                                      "textAlign": "left",
+                                    },
+                                    {
+                                      "color": "rgba(28, 27, 31, 1)",
+                                      "fontFamily": "System",
+                                      "fontWeight": "400",
+                                      "letterSpacing": 0,
+                                    },
+                                    {
+                                      "writingDirection": "ltr",
+                                    },
+                                    [
+                                      {
+                                        "fontFamily": "Cta",
+                                        "fontSize": 16,
+                                      },
+                                    ],
+                                  ]
+                                }
+                              >
+                                Lorem ipsum!
+                              </Text>
+                            </View>
+                          </RCTScrollView>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                accessibilityElementsHidden={true}
+                animatedStyle={
+                  {
+                    "value": {
+                      "opacity": 0,
+                      "zIndex": -1,
+                    },
+                  }
+                }
+                collapsable={false}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  {
+                    "backgroundColor": "rgba(0, 0, 0, 0.5)",
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "zIndex": -1,
+                  }
+                }
+              >
+                <View
+                  accessibilityLabel="Close drawer"
+                  accessibilityRole="button"
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "flex": 1,
+                      "pointerEvents": "auto",
+                    }
+                  }
+                />
+              </View>
+            </View>
+            <View
+              animatedStyle={
+                {
+                  "value": {
+                    "transform": [
+                      {
+                        "translateX": -276,
+                      },
+                    ],
+                  },
+                }
+              }
+              collapsable={false}
+              removeClippedSubviews={false}
+              style={
+                {
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "bottom": 0,
+                  "maxWidth": "100%",
+                  "position": "absolute",
+                  "top": 0,
+                  "transform": [
+                    {
+                      "translateX": -276,
+                    },
+                  ],
+                  "width": 276,
+                  "zIndex": 0,
+                }
+              }
+            >
+              <RCTScrollView
+                alwaysBounceVertical={false}
+                contentContainerStyle={
+                  [
+                    {
+                      "paddingEnd": 0,
+                      "paddingStart": 0,
+                      "paddingTop": 4,
+                    },
+                    undefined,
+                  ]
+                }
+                style={
+                  [
+                    {
+                      "flex": 1,
+                    },
+                    [
+                      {
+                        "flex": 1,
+                      },
+                      {
+                        "backgroundColor": "rgba(255, 251, 254, 1)",
+                      },
+                    ],
+                  ]
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      [
+                        {
+                          "marginBottom": 4,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "height": 40,
+                            "justifyContent": "center",
+                          },
+                          {
+                            "height": 56,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          [
+                            {
+                              "textAlign": "left",
+                            },
+                            {
+                              "color": "rgba(28, 27, 31, 1)",
+                              "writingDirection": "ltr",
+                            },
+                            [
+                              {
+                                "fontFamily": "System",
+                                "fontSize": 14,
+                                "fontWeight": "500",
+                                "letterSpacing": 0.1,
+                                "lineHeight": 20,
+                              },
+                              [
+                                {
+                                  "color": "rgba(73, 69, 79, 1)",
+                                  "fontFamily": "System",
+                                  "fontSize": 14,
+                                  "fontWeight": "500",
+                                  "letterSpacing": 0.1,
+                                  "lineHeight": 20,
+                                  "marginLeft": 28,
+                                },
+                              ],
+                            ],
+                          ]
+                        }
+                      >
+                        [missing "mock.drawer-component-example-items" translation]
+                      </Text>
+                    </View>
+                    <View
+                      route="Home"
+                    >
+                      <View
+                        accessibilityRole="button"
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": false,
+                            "expanded": undefined,
+                            "selected": true,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          [
+                            {
+                              "overflow": "hidden",
+                            },
+                            [
+                              {
+                                "marginHorizontal": 10,
+                                "marginVertical": 4,
+                              },
+                              {
+                                "backgroundColor": "rgba(232, 222, 248, 1)",
+                                "borderRadius": 28,
+                              },
+                              {
+                                "height": 56,
+                                "justifyContent": "center",
+                                "marginLeft": 12,
+                                "marginRight": 12,
+                                "marginVertical": 0,
+                              },
+                              undefined,
+                            ],
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "padding": 8,
+                              },
+                              {
+                                "marginLeft": 16,
+                                "marginRight": 24,
+                                "padding": 0,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              {
+                                "alignItems": "center",
+                                "flex": 1,
+                                "flexDirection": "row",
+                              }
+                            }
+                          >
+                            <Text
+                              accessibilityElementsHidden={true}
+                              allowFontScaling={false}
+                              importantForAccessibility="no-hide-descendants"
+                              pointerEvents="none"
+                              selectable={false}
+                              style={
+                                [
+                                  {
+                                    "color": "rgba(29, 25, 43, 1)",
+                                    "fontSize": 24,
+                                  },
+                                  [
+                                    {
+                                      "lineHeight": 24,
+                                      "transform": [
+                                        {
+                                          "scaleX": 1,
+                                        },
+                                      ],
+                                    },
+                                    {
+                                      "backgroundColor": "transparent",
+                                    },
+                                  ],
+                                  {
+                                    "fontFamily": "material-community",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal",
+                                  },
+                                  {},
+                                ]
+                              }
+                            >
+                              󰋜
+                            </Text>
+                            <Text
+                              numberOfLines={1}
+                              selectable={false}
+                              style={
+                                [
+                                  {
+                                    "textAlign": "left",
+                                  },
+                                  {
+                                    "color": "rgba(28, 27, 31, 1)",
+                                    "writingDirection": "ltr",
+                                  },
+                                  [
+                                    {
+                                      "fontFamily": "System",
+                                      "fontSize": 14,
+                                      "fontWeight": "500",
+                                      "letterSpacing": 0.1,
+                                      "lineHeight": 20,
+                                    },
+                                    [
+                                      {
+                                        "marginRight": 32,
+                                      },
+                                      {
+                                        "color": "rgba(29, 25, 43, 1)",
+                                        "fontFamily": "System",
+                                        "fontSize": 14,
+                                        "fontWeight": "500",
+                                        "letterSpacing": 0.1,
+                                        "lineHeight": 20,
+                                        "marginLeft": 12,
+                                      },
+                                    ],
+                                  ],
+                                ]
+                              }
+                            >
+                              [missing "mock.drawer-component-home" translation]
+                            </Text>
+                          </View>
+                          <Text
+                            style={
+                              [
+                                {
+                                  "textAlign": "left",
+                                },
+                                {
+                                  "color": "rgba(28, 27, 31, 1)",
+                                  "writingDirection": "ltr",
+                                },
+                                [
+                                  {
+                                    "fontFamily": "System",
+                                    "fontSize": 14,
+                                    "fontWeight": "500",
+                                    "letterSpacing": 0.1,
+                                    "lineHeight": 20,
+                                  },
+                                  undefined,
+                                ],
+                              ]
+                            }
+                          >
+                            44
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      route="Settings"
+                    >
+                      <View
+                        accessibilityRole="button"
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": false,
+                            "expanded": undefined,
+                            "selected": false,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          [
+                            {
+                              "overflow": "hidden",
+                            },
+                            [
+                              {
+                                "marginHorizontal": 10,
+                                "marginVertical": 4,
+                              },
+                              {
+                                "backgroundColor": "transparent",
+                                "borderRadius": 28,
+                              },
+                              {
+                                "height": 56,
+                                "justifyContent": "center",
+                                "marginLeft": 12,
+                                "marginRight": 12,
+                                "marginVertical": 0,
+                              },
+                              undefined,
+                            ],
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "padding": 8,
+                              },
+                              {
+                                "marginLeft": 16,
+                                "marginRight": 24,
+                                "padding": 0,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              {
+                                "alignItems": "center",
+                                "flex": 1,
+                                "flexDirection": "row",
+                              }
+                            }
+                          >
+                            <Text
+                              accessibilityElementsHidden={true}
+                              allowFontScaling={false}
+                              importantForAccessibility="no-hide-descendants"
+                              pointerEvents="none"
+                              selectable={false}
+                              style={
+                                [
+                                  {
+                                    "color": "rgba(73, 69, 79, 1)",
+                                    "fontSize": 24,
+                                  },
+                                  [
+                                    {
+                                      "lineHeight": 24,
+                                      "transform": [
+                                        {
+                                          "scaleX": 1,
+                                        },
+                                      ],
+                                    },
+                                    {
+                                      "backgroundColor": "transparent",
+                                    },
+                                  ],
+                                  {
+                                    "fontFamily": "material-community",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal",
+                                  },
+                                  {},
+                                ]
+                              }
+                            >
+                              󰒓
+                            </Text>
+                            <Text
+                              numberOfLines={1}
+                              selectable={false}
+                              style={
+                                [
+                                  {
+                                    "textAlign": "left",
+                                  },
+                                  {
+                                    "color": "rgba(28, 27, 31, 1)",
+                                    "writingDirection": "ltr",
+                                  },
+                                  [
+                                    {
+                                      "fontFamily": "System",
+                                      "fontSize": 14,
+                                      "fontWeight": "500",
+                                      "letterSpacing": 0.1,
+                                      "lineHeight": 20,
+                                    },
+                                    [
+                                      {
+                                        "marginRight": 32,
+                                      },
+                                      {
+                                        "color": "rgba(73, 69, 79, 1)",
+                                        "fontFamily": "System",
+                                        "fontSize": 14,
+                                        "fontWeight": "500",
+                                        "letterSpacing": 0.1,
+                                        "lineHeight": 20,
+                                        "marginLeft": 12,
+                                      },
+                                    ],
+                                  ],
+                                ]
+                              }
+                            >
+                              [missing "mock.drawer-component-settings" translation]
+                            </Text>
+                          </View>
+                          <Text
+                            collapsable={false}
+                            numberOfLines={1}
+                            style={
+                              {
+                                "alignSelf": "center",
+                                "backgroundColor": "rgba(73, 69, 79, 1)",
+                                "borderRadius": 4,
+                                "color": "rgba(255, 255, 255, 1)",
+                                "fontSize": 4,
+                                "height": 8,
+                                "lineHeight": 4,
+                                "minWidth": 8,
+                                "opacity": 1,
+                                "overflow": "hidden",
+                                "paddingHorizontal": 3,
+                                "textAlign": "center",
+                                "textAlignVertical": "center",
+                              }
+                            }
+                          />
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {
+                            "backgroundColor": "rgba(202, 196, 208, 1)",
+                            "height": 0.5,
+                          },
+                          undefined,
+                          {
+                            "marginLeft": 16,
+                            "marginRight": 16,
+                          },
+                          {
+                            "height": 1,
+                          },
+                          [
+                            {
+                              "marginTop": 4,
+                            },
+                            {
+                              "backgroundColor": "rgba(121, 116, 126, 1)",
+                            },
+                          ],
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "marginBottom": 4,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "height": 40,
+                            "justifyContent": "center",
+                          },
+                          {
+                            "height": 56,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          [
+                            {
+                              "textAlign": "left",
+                            },
+                            {
+                              "color": "rgba(28, 27, 31, 1)",
+                              "writingDirection": "ltr",
+                            },
+                            [
+                              {
+                                "fontFamily": "System",
+                                "fontSize": 14,
+                                "fontWeight": "500",
+                                "letterSpacing": 0.1,
+                                "lineHeight": 20,
+                              },
+                              [
+                                {
+                                  "color": "rgba(73, 69, 79, 1)",
+                                  "fontFamily": "System",
+                                  "fontSize": 14,
+                                  "fontWeight": "500",
+                                  "letterSpacing": 0.1,
+                                  "lineHeight": 20,
+                                  "marginLeft": 28,
+                                },
+                              ],
+                            ],
+                          ]
+                        }
+                      >
+                        [missing "mock.drawer-component-preferences" translation]
+                      </Text>
+                    </View>
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": false,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        [
+                          false,
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "justifyContent": "space-between",
+                              "paddingHorizontal": 16,
+                              "paddingVertical": 12,
+                            },
+                            {
+                              "height": 56,
+                              "paddingHorizontal": 28,
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          style={
+                            [
+                              {
+                                "textAlign": "left",
+                              },
+                              {
+                                "color": "rgba(28, 27, 31, 1)",
+                                "writingDirection": "ltr",
+                              },
+                              [
+                                {
+                                  "fontFamily": "System",
+                                  "fontSize": 14,
+                                  "fontWeight": "500",
+                                  "letterSpacing": 0.1,
+                                  "lineHeight": 20,
+                                },
+                                undefined,
+                              ],
+                            ]
+                          }
+                        >
+                          [missing "mock.drawer-component-dark-theme" translation]
+                        </Text>
+                        <View
+                          pointerEvents="none"
+                        >
+                          <RCTSwitch
+                            accessibilityRole="switch"
+                            onChange={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            onTintColor="rgba(103, 80, 164, 1)"
+                            style={
+                              {
+                                "height": 31,
+                                "width": 51,
+                              }
+                            }
+                            tintColor="rgba(103, 80, 164, 1)"
+                            value={false}
+                          />
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": false,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        [
+                          false,
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "justifyContent": "space-between",
+                              "paddingHorizontal": 16,
+                              "paddingVertical": 12,
+                            },
+                            {
+                              "height": 56,
+                              "paddingHorizontal": 28,
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          style={
+                            [
+                              {
+                                "textAlign": "left",
+                              },
+                              {
+                                "color": "rgba(28, 27, 31, 1)",
+                                "writingDirection": "ltr",
+                              },
+                              [
+                                {
+                                  "fontFamily": "System",
+                                  "fontSize": 14,
+                                  "fontWeight": "500",
+                                  "letterSpacing": 0.1,
+                                  "lineHeight": 20,
+                                },
+                                undefined,
+                              ],
+                            ]
+                          }
+                        >
+                          English
+                        </Text>
+                        <View
+                          pointerEvents="none"
+                          style={
+                            {
+                              "fontSize": 24,
+                              "paddingHorizontal": 8,
+                              "paddingVertical": 4,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              [
+                                {
+                                  "textAlign": "left",
+                                },
+                                {
+                                  "color": "rgba(28, 27, 31, 1)",
+                                  "fontFamily": "System",
+                                  "fontWeight": "400",
+                                  "letterSpacing": 0,
+                                },
+                                {
+                                  "writingDirection": "ltr",
+                                },
+                                {
+                                  "fontSize": 18,
+                                },
+                              ]
+                            }
+                          >
+                            EN
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {
+                            "backgroundColor": "rgba(202, 196, 208, 1)",
+                            "height": 0.5,
+                          },
+                          undefined,
+                          {
+                            "marginLeft": 16,
+                            "marginRight": 16,
+                          },
+                          {
+                            "height": 1,
+                          },
+                          [
+                            {
+                              "marginTop": 4,
+                            },
+                            {
+                              "backgroundColor": "rgba(121, 116, 126, 1)",
+                            },
+                          ],
+                        ]
+                      }
+                    />
+                  </View>
+                  <Text
+                    style={
+                      [
+                        {
+                          "textAlign": "left",
+                        },
+                        {
+                          "color": "rgba(28, 27, 31, 1)",
+                          "writingDirection": "ltr",
+                        },
+                        [
+                          {
+                            "fontFamily": "System",
+                            "fontSize": 12,
+                            "fontWeight": "400",
+                            "letterSpacing": 0.4,
+                            "lineHeight": 16,
+                          },
+                          {
+                            "marginHorizontal": 24,
+                            "marginVertical": 6,
+                          },
+                        ],
+                      ]
+                    }
+                  >
+                    expo-boilerplate
+                     v
+                    1.0.0
+                  </Text>
+                </View>
+              </RCTScrollView>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
