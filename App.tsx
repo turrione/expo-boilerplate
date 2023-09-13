@@ -1,7 +1,7 @@
 import 'react-native-gesture-handler';
 import * as Font from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
@@ -10,6 +10,7 @@ import AppNavigation from './src/components/navigation/AppNavigation';
 import store, { persistor } from './src/redux/store';
 
 export default function App() {
+  const [fontsLoaded, setFontsLoaded] = useState(false);
   const loadFonts = async () => {
     try {
       await Font.loadAsync({
@@ -17,8 +18,10 @@ export default function App() {
         Cta: require('./src/assets/fonts/Oswald/Oswald-Bold.ttf'),
         Body: require('./src/assets/fonts/Roboto/Roboto-Regular.ttf'),
       });
+      setFontsLoaded(true);
     } catch (error) {
       console.log(error);
+      setFontsLoaded(false);
     } finally {
       SplashScreen.hideAsync();
     }
@@ -47,7 +50,7 @@ export default function App() {
               top: 0,
             },
           }}>
-          <AppNavigation />
+          {fontsLoaded && <AppNavigation />}
         </SafeAreaProvider>
       </PersistGate>
     </Provider>
