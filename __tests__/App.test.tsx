@@ -1,19 +1,13 @@
-import renderer from 'react-test-renderer';
+import { render, waitFor } from '@testing-library/react-native';
 
 import App from '../App';
 
 describe('<App />', () => {
-  it('has 1 child', () => {
-    const tree: any = renderer.create(<App />).toJSON();
-    if (tree) {
-      expect(tree?.children?.length).toBe(1);
-    } else {
-      fail('Tree is null');
-    }
-  });
-
-  it('renders correctly', () => {
-    const tree = renderer.create(<App />).toJSON();
-    expect(tree).toMatchSnapshot();
+  test('renders correctly', async () => {
+    const { toJSON } = render(<App />);
+    await waitFor(() => {
+      const tree = toJSON();
+      expect(tree).toMatchSnapshot();
+    });
   });
 });
